@@ -10,7 +10,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "importHelpers": true,
-    "target": "es5",
+    "target": "es6",
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -18,5 +18,12 @@
       "es2018",
       "dom"
     ]
-  }
+  },
+  "files": [ 
+    "src/main.ts", 
+    "src/polyfills.ts" 
+  ], 
+  "include": [ 
+    "src/**/*.d.ts" 
+  ] 
 }
